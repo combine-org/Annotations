@@ -1,2 +1,2 @@
-Example(s) of CellML usage of the proposed COMBINE annotations format
+Example(s) of SBML usage of the proposed COMBINE annotations format
 
