@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2006/vcard/ns#">
   <rdf:Description rdf:about=".">
+    <dcterms:description>SBML example archive for semantic annotations.</dcterms:description>
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -40,6 +41,7 @@
     </dcterms:modified>
   </rdf:Description>
   <rdf:Description rdf:about="./BIOMD0000000176_example_semantics.rdf">
+    <dcterms:description>Semantic annotations for SBML model.</dcterms:description>
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -79,6 +81,7 @@
     </dcterms:modified>
   </rdf:Description>
   <rdf:Description rdf:about="./README.md">
+    <dcterms:description>Human-readable description.</dcterms:description>
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -118,6 +121,7 @@
     </dcterms:modified>
   </rdf:Description>
   <rdf:Description rdf:about="./BIOMD0000000176.xml">
+    <dcterms:description>SBML model annotated by external RDF file.</dcterms:description>
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
