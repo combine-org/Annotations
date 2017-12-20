@@ -15,14 +15,31 @@
         </rdf:li>
       </rdf:Bag>
     </dcterms:creator>
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>König</vCard:family-name>
+            <vCard:given-name>Matthias</vCard:given-name>
+          </vCard:n>
+          <vCard:email>konigmatt@googlemail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:20Z</dcterms:W3CDTF>
     </dcterms:created>
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:20Z</dcterms:W3CDTF>
     </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
+    </dcterms:modified>
   </rdf:Description>
-  <rdf:Description rdf:about="/BIOMD0000000176_example_semantics.rdf">
+  <rdf:Description rdf:about="./BIOMD0000000176_example_semantics.rdf">
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -37,14 +54,31 @@
         </rdf:li>
       </rdf:Bag>
     </dcterms:creator>
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>König</vCard:family-name>
+            <vCard:given-name>Matthias</vCard:given-name>
+          </vCard:n>
+          <vCard:email>konigmatt@googlemail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
     </dcterms:created>
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
     </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
+    </dcterms:modified>
   </rdf:Description>
-  <rdf:Description rdf:about="/README.txt">
+  <rdf:Description rdf:about="./README.md">
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -59,14 +93,31 @@
         </rdf:li>
       </rdf:Bag>
     </dcterms:creator>
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>König</vCard:family-name>
+            <vCard:given-name>Matthias</vCard:given-name>
+          </vCard:n>
+          <vCard:email>konigmatt@googlemail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
     </dcterms:created>
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
     </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
+    </dcterms:modified>
   </rdf:Description>
-  <rdf:Description rdf:about="/BIOMD0000000176.xml">
+  <rdf:Description rdf:about="./BIOMD0000000176.xml">
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
