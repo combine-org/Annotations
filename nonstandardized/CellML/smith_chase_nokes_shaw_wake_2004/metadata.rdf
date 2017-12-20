@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2006/vcard/ns#">
+  <rdf:Description rdf:about=".">
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>Neal</vCard:family-name>
+            <vCard:given-name>Maxwell</vCard:given-name>
+          </vCard:n>
+          <vCard:email>maxneal@gmail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
+    <dcterms:created rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:42Z</dcterms:W3CDTF>
+    </dcterms:created>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:42Z</dcterms:W3CDTF>
+    </dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="/smith_chase_nokes_shaw_wake_2004.cellml">
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>Neal</vCard:family-name>
+            <vCard:given-name>Maxwell</vCard:given-name>
+          </vCard:n>
+          <vCard:email>maxneal@gmail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
+    <dcterms:created rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
+    </dcterms:created>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
+    </dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="/smith_chase_nokes_shaw_wake_2004_example_semantics.rdf">
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>Neal</vCard:family-name>
+            <vCard:given-name>Maxwell</vCard:given-name>
+          </vCard:n>
+          <vCard:email>maxneal@gmail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
+    <dcterms:created rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
+    </dcterms:created>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
+    </dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="/README.txt">
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>Neal</vCard:family-name>
+            <vCard:given-name>Maxwell</vCard:given-name>
+          </vCard:n>
+          <vCard:email>maxneal@gmail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
+    <dcterms:created rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
+    </dcterms:created>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
+    </dcterms:modified>
+  </rdf:Description>
+</rdf:RDF>

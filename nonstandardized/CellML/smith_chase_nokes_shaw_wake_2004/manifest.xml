@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omexManifest xmlns="http://identifiers.org/combine.specifications/omex-manifest">
+  <content location="." format="http://identifiers.org/combine.specifications/omex" />
+  <content location="./manifest.xml" format="http://identifiers.org/combine.specifications/omex-manifest" />
+  <content location="./smith_chase_nokes_shaw_wake_2004.cellml" format="http://identifiers.org/combine.specifications/cellml" />
+  <content location="./smith_chase_nokes_shaw_wake_2004_example_semantics.rdf" format="http://purl.org/NET/mediatypes/application/rdf+xml" />
+  <content location="./README.txt" format="http://purl.org/NET/mediatypes/text/plain" />
+  <content location="./metadata.rdf" format="http://identifiers.org/combine.specifications/omex-metadata" />
+</omexManifest>
