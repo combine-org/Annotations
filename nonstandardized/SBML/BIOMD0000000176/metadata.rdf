@@ -2,33 +2,21 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2006/vcard/ns#">
   <rdf:Description rdf:about=".">
     <dcterms:description>SBML example archive for semantic annotations.</dcterms:description>
-    <dcterms:creator>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <vCard:n rdf:parseType="Resource">
-            <vCard:family-name>Neal</vCard:family-name>
-            <vCard:given-name>Maxwell</vCard:given-name>
-          </vCard:n>
-          <vCard:email>max.neal@cidresearch.org</vCard:email>
-          <vCard:org rdf:parseType="Resource">
-            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
-          </vCard:org>
-        </rdf:li>
-      </rdf:Bag>
+    <dcterms:creator rdf:parseType="Resource">
+      <vCard:n rdf:parseType="Resource">
+        <vCard:family-name>Neal</vCard:family-name>
+        <vCard:given-name>Maxwell</vCard:given-name>
+      </vCard:n>
+      <vCard:email>max.neal@cidresearch.org</vCard:email>
+      <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
     </dcterms:creator>
-    <dcterms:creator>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <vCard:n rdf:parseType="Resource">
-            <vCard:family-name>König</vCard:family-name>
-            <vCard:given-name>Matthias</vCard:given-name>
-          </vCard:n>
-          <vCard:email>konigmatt@googlemail.com</vCard:email>
-          <vCard:org rdf:parseType="Resource">
-            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
-          </vCard:org>
-        </rdf:li>
-      </rdf:Bag>
+    <dcterms:creator rdf:parseType="Resource">
+      <vCard:n rdf:parseType="Resource">
+        <vCard:family-name>König</vCard:family-name>
+        <vCard:given-name>Matthias</vCard:given-name>
+      </vCard:n>
+      <vCard:email>konigmatt@googlemail.com</vCard:email>
+      <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
     </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:20Z</dcterms:W3CDTF>
@@ -42,33 +30,21 @@
   </rdf:Description>
   <rdf:Description rdf:about="./BIOMD0000000176_example_semantics.rdf">
     <dcterms:description>Semantic annotations for SBML model.</dcterms:description>
-    <dcterms:creator>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <vCard:n rdf:parseType="Resource">
-            <vCard:family-name>Neal</vCard:family-name>
-            <vCard:given-name>Maxwell</vCard:given-name>
-          </vCard:n>
-          <vCard:email>max.neal@cidresearch.org</vCard:email>
-          <vCard:org rdf:parseType="Resource">
-            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
-          </vCard:org>
-        </rdf:li>
-      </rdf:Bag>
+    <dcterms:creator rdf:parseType="Resource">
+      <vCard:n rdf:parseType="Resource">
+        <vCard:family-name>Neal</vCard:family-name>
+        <vCard:given-name>Maxwell</vCard:given-name>
+      </vCard:n>
+      <vCard:email>max.neal@cidresearch.org</vCard:email>
+      <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
     </dcterms:creator>
-    <dcterms:creator>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <vCard:n rdf:parseType="Resource">
-            <vCard:family-name>König</vCard:family-name>
-            <vCard:given-name>Matthias</vCard:given-name>
-          </vCard:n>
-          <vCard:email>konigmatt@googlemail.com</vCard:email>
-          <vCard:org rdf:parseType="Resource">
-            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
-          </vCard:org>
-        </rdf:li>
-      </rdf:Bag>
+    <dcterms:creator rdf:parseType="Resource">
+      <vCard:n rdf:parseType="Resource">
+        <vCard:family-name>König</vCard:family-name>
+        <vCard:given-name>Matthias</vCard:given-name>
+      </vCard:n>
+      <vCard:email>konigmatt@googlemail.com</vCard:email>
+      <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
     </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
@@ -82,33 +58,21 @@
   </rdf:Description>
   <rdf:Description rdf:about="./README.md">
     <dcterms:description>Human-readable description.</dcterms:description>
-    <dcterms:creator>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <vCard:n rdf:parseType="Resource">
-            <vCard:family-name>Neal</vCard:family-name>
-            <vCard:given-name>Maxwell</vCard:given-name>
-          </vCard:n>
-          <vCard:email>max.neal@cidresearch.org</vCard:email>
-          <vCard:org rdf:parseType="Resource">
-            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
-          </vCard:org>
-        </rdf:li>
-      </rdf:Bag>
+    <dcterms:creator rdf:parseType="Resource">
+      <vCard:n rdf:parseType="Resource">
+        <vCard:family-name>Neal</vCard:family-name>
+        <vCard:given-name>Maxwell</vCard:given-name>
+      </vCard:n>
+      <vCard:email>max.neal@cidresearch.org</vCard:email>
+      <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
     </dcterms:creator>
-    <dcterms:creator>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <vCard:n rdf:parseType="Resource">
-            <vCard:family-name>König</vCard:family-name>
-            <vCard:given-name>Matthias</vCard:given-name>
-          </vCard:n>
-          <vCard:email>konigmatt@googlemail.com</vCard:email>
-          <vCard:org rdf:parseType="Resource">
-            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
-          </vCard:org>
-        </rdf:li>
-      </rdf:Bag>
+    <dcterms:creator rdf:parseType="Resource">
+      <vCard:n rdf:parseType="Resource">
+        <vCard:family-name>König</vCard:family-name>
+        <vCard:given-name>Matthias</vCard:given-name>
+      </vCard:n>
+      <vCard:email>konigmatt@googlemail.com</vCard:email>
+      <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
     </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
@@ -122,19 +86,13 @@
   </rdf:Description>
   <rdf:Description rdf:about="./BIOMD0000000176.xml">
     <dcterms:description>SBML model annotated by external RDF file.</dcterms:description>
-    <dcterms:creator>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <vCard:n rdf:parseType="Resource">
-            <vCard:family-name>Neal</vCard:family-name>
-            <vCard:given-name>Maxwell</vCard:given-name>
-          </vCard:n>
-          <vCard:email>max.neal@cidresearch.org</vCard:email>
-          <vCard:org rdf:parseType="Resource">
-            <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
-          </vCard:org>
-        </rdf:li>
-      </rdf:Bag>
+    <dcterms:creator rdf:parseType="Resource">
+      <vCard:n rdf:parseType="Resource">
+        <vCard:family-name>Neal</vCard:family-name>
+        <vCard:given-name>Maxwell</vCard:given-name>
+      </vCard:n>
+      <vCard:email>max.neal@cidresearch.org</vCard:email>
+      <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
     </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
