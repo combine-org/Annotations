@@ -3,7 +3,7 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
   
-  <rdf:Description rdf:about="smith_chase_nokes_shaw_wake_2004.cellml#left_ventricle_P_lv">
+  <rdf:Description rdf:about="./smith_chase_nokes_shaw_wake_2004.cellml#left_ventricle_P_lv">
    <bqbiol:isVersionOf rdf:resource="http://identifiers.org/opb/OPB_00509" />
    <bqbiol:isPropertyOf rdf:resource="#entity_0"/>
    <dcterms:description>Left ventricular blood pressure</dcterms:description>

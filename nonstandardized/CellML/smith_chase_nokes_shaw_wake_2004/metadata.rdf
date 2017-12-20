@@ -15,14 +15,31 @@
         </rdf:li>
       </rdf:Bag>
     </dcterms:creator>
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>König</vCard:family-name>
+            <vCard:given-name>Matthias</vCard:given-name>
+          </vCard:n>
+          <vCard:email>konigmatt@googlemail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-18T18:32:42Z</dcterms:W3CDTF>
     </dcterms:created>
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-18T18:32:42Z</dcterms:W3CDTF>
     </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
+    </dcterms:modified>
   </rdf:Description>
-  <rdf:Description rdf:about="/smith_chase_nokes_shaw_wake_2004.cellml">
+  <rdf:Description rdf:about="./smith_chase_nokes_shaw_wake_2004.cellml">
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -44,7 +61,7 @@
       <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
     </dcterms:modified>
   </rdf:Description>
-  <rdf:Description rdf:about="/smith_chase_nokes_shaw_wake_2004_example_semantics.rdf">
+  <rdf:Description rdf:about="./smith_chase_nokes_shaw_wake_2004_example_semantics.rdf">
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -55,6 +72,20 @@
           <vCard:email>maxneal@gmail.com</vCard:email>
           <vCard:org rdf:parseType="Resource">
             <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>König</vCard:family-name>
+            <vCard:given-name>Matthias</vCard:given-name>
+          </vCard:n>
+          <vCard:email>konigmatt@googlemail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
           </vCard:org>
         </rdf:li>
       </rdf:Bag>
@@ -65,8 +96,11 @@
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
     </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
+    </dcterms:modified>
   </rdf:Description>
-  <rdf:Description rdf:about="/README.txt">
+  <rdf:Description rdf:about="./README.md">
     <dcterms:creator>
       <rdf:Bag>
         <rdf:li rdf:parseType="Resource">
@@ -81,11 +115,28 @@
         </rdf:li>
       </rdf:Bag>
     </dcterms:creator>
+    <dcterms:creator>
+      <rdf:Bag>
+        <rdf:li rdf:parseType="Resource">
+          <vCard:n rdf:parseType="Resource">
+            <vCard:family-name>König</vCard:family-name>
+            <vCard:given-name>Matthias</vCard:given-name>
+          </vCard:n>
+          <vCard:email>konigmatt@googlemail.com</vCard:email>
+          <vCard:org rdf:parseType="Resource">
+            <vCard:organization-name>Humboldt University Berlin</vCard:organization-name>
+          </vCard:org>
+        </rdf:li>
+      </rdf:Bag>
+    </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
     </dcterms:created>
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
+    </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
     </dcterms:modified>
   </rdf:Description>
 </rdf:RDF>
