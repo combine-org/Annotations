@@ -4,15 +4,15 @@
     xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
   
   <rdf:Description rdf:about="./BIOMD0000000176.xml#_525523">
-   <bqbiol:is rdf:resource="http://identifiers.org/obo.go/GO:0005829" />
+   <bqbiol:is rdf:resource="http://identifiers.org/go/GO:0005829" />
   </rdf:Description>
 
   <rdf:Description rdf:about="./BIOMD0000000176.xml#_525530">
-    <bqbiol:is rdf:resource="http://identifiers.org/obo.chebi/CHEBI:4167" />
+    <bqbiol:is rdf:resource="http://identifiers.org/chebi/CHEBI:4167" />
 	<bqbiol:is rdf:resource="http://identifiers.org/kegg.compound/C00031" />
   </rdf:Description>
 
   <rdf:Description rdf:about="./BIOMD0000000176.xml#_525635">
-    <bqbiol:isVersionOf rdf:resource="http://identifiers.org/obo.go/GO:0015758" />
+    <bqbiol:isVersionOf rdf:resource="http://identifiers.org/go/GO:0015758" />
   </rdf:Description>
 </rdf:RDF>
