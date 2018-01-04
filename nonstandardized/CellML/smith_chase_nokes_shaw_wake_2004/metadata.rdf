@@ -30,14 +30,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="./smith_chase_nokes_shaw_wake_2004.cellml">
     <dcterms:description>CellML model which is annotated.</dcterms:description>
-    <dcterms:creator rdf:parseType="Resource">
-      <vCard:n rdf:parseType="Resource">
-        <vCard:family-name>Neal</vCard:family-name>
-        <vCard:given-name>Maxwell</vCard:given-name>
-      </vCard:n>
-      <vCard:email>maxneal@gmail.com</vCard:email>
-      <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
-    </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-18T18:32:55Z</dcterms:W3CDTF>
     </dcterms:created>
@@ -52,7 +44,7 @@
         <vCard:family-name>Neal</vCard:family-name>
         <vCard:given-name>Maxwell</vCard:given-name>
       </vCard:n>
-      <vCard:email>maxneal@gmail.com</vCard:email>
+      <vCard:email>max.neal@cidresearch.org</vCard:email>
       <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
     </dcterms:creator>
     <dcterms:creator rdf:parseType="Resource">
@@ -80,7 +72,7 @@
         <vCard:family-name>Neal</vCard:family-name>
         <vCard:given-name>Maxwell</vCard:given-name>
       </vCard:n>
-      <vCard:email>maxneal@gmail.com</vCard:email>
+      <vCard:email>max.neal@cidresearch.org</vCard:email>
       <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
     </dcterms:creator>
     <dcterms:creator rdf:parseType="Resource">

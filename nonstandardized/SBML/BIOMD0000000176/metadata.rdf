@@ -89,14 +89,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="./BIOMD0000000176.xml">
     <dcterms:description>SBML model annotated by external RDF file.</dcterms:description>
-    <dcterms:creator rdf:parseType="Resource">
-      <vCard:n rdf:parseType="Resource">
-        <vCard:family-name>Neal</vCard:family-name>
-        <vCard:given-name>Maxwell</vCard:given-name>
-      </vCard:n>
-      <vCard:email>max.neal@cidresearch.org</vCard:email>
-      <vCard:organization-name>Center for Infectious Disease Research</vCard:organization-name>
-    </dcterms:creator>
     <dcterms:created rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-16T00:09:38Z</dcterms:W3CDTF>
     </dcterms:created>
