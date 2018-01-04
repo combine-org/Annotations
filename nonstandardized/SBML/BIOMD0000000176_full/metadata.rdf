@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <rdf:Description rdf:about="./results/tellurium_plot_1.pdf">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N599f63215c884114b6de1769bf6838e1">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.426596+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="Nd640a020ce584833b7b7a76b9361c8b9">
+        <dcterms:hasEmail>konigmatt@googlemail.com</dcterms:hasEmail>
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N78b567fec2c640ab935d05a1ae94e75c">
+            <dcterms:family-name>König</dcterms:family-name>
+            <dcterms:given-name>Matthias</dcterms:given-name>
+          </rdf:Description>
+        </dcterms:hasName>
+        <dcterms:organization-name>Humboldt University Berlin</dcterms:organization-name>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:description>Results of SED-ML simulation experiment with tellurium.&#13;
+Reproduces results from Figure 2A from the publication. Changes in the concentration of key flux in response to overall decreases in the Vmax values for the reactions of glycolysis.</dcterms:description>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="N0fa557e629a149d2b79ec4d9db0abf68">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.426596+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N1460c2620a8d448b9bc9337e9893b114">
+        <dcterms:W3CDTF>2018-01-04 23:23:16.356011+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="./metadata.ttl">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nd69f1b403bd445d782eb30872b41cc29">
+        <dcterms:W3CDTF>2018-01-04 23:14:07.726480+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="N686ae55dc91a45a292ed90df360df6e5">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:17.191785+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N2fe8423d381a4ce286e9016faa259a15">
+        <dcterms:W3CDTF>2018-01-04 23:16:18.955308+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nffaba7a541a04d9abadfd718270aa280">
+        <dcterms:W3CDTF>2018-01-04 23:19:44.815824+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N440d0b5261a14dd19478261d4f31c963">
+        <dcterms:W3CDTF>2018-01-04 23:19:44.603794+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N7576098bc00d4d06b7c7d3bd976db9dc">
+        <dcterms:W3CDTF>2018-01-04 23:22:23.252494+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:description>Metadata file describing COMBINE archive content as Turtle serialization.</dcterms:description>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N29f69848d6394254995f177ee016852b">
+        <dcterms:W3CDTF>2018-01-04 23:20:46.899349+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nd1ddde660c354c928679177cd65a2755">
+        <dcterms:W3CDTF>2018-01-04 23:18:29.982311+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nca008fcf142148c2ba14cf4be79dad29">
+        <dcterms:W3CDTF>2018-01-04 23:12:17.191785+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Na5bd0e0d0f624e1488f5930ff6a8efe6">
+        <dcterms:W3CDTF>2018-01-04 23:17:23.150536+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="./BIOMD0000000176.rdf">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N1f8ffa98987c47ff906dc9a392aa70a9">
+        <dcterms:W3CDTF>2018-01-04 23:14:07.592628+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="N337647f33bdb419bab479d1986c500fc">
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N74406266f8e244fb869bbf00ec37501e">
+            <dcterms:family-name>König</dcterms:family-name>
+            <dcterms:given-name>Matthias</dcterms:given-name>
+          </rdf:Description>
+        </dcterms:hasName>
+        <dcterms:organization-name>Humboldt University Berlin</dcterms:organization-name>
+        <dcterms:hasEmail>konigmatt@googlemail.com</dcterms:hasEmail>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Ncfc7de20ced14949b253e4ac94ff62c9">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.348547+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:description>Complete metadata for the the SBML model BIOMD0000000176.xml as XML serialization.</dcterms:description>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="N86cce124b8d54e26818651022eeb52ce">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.348547+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="./metadata.rdf">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nb3b150a0b94f469bad64255de157e188">
+        <dcterms:W3CDTF>2018-01-04 23:16:18.840207+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nff2487636ae2480d930886a007c783f9">
+        <dcterms:W3CDTF>2018-01-04 23:18:29.830538+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nef8717c4532b461b8f618df61b712bbc">
+        <dcterms:W3CDTF>2018-01-04 23:18:29.861993+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Ndad6fdaac2ae4fbd9d012ecdab1c57a0">
+        <dcterms:W3CDTF>2018-01-04 23:23:16.377034+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:description>Metadata file describing COMBINE archive content as XML serialization.</dcterms:description>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N26f6407fe73247fd837fd8b4462c989f">
+        <dcterms:W3CDTF>2018-01-04 23:22:23.137045+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N15bd493d815a4b5d8d4017b9a3753c4c">
+        <dcterms:W3CDTF>2018-01-04 23:14:07.623744+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N72a011f2175c4caab9fbc2105a46eeb2">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.968308+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="Nb1538cf050234f38931528efe2cb3420">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.968308+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N7f2cf93df1514db181af09311e5f0cbf">
+        <dcterms:W3CDTF>2018-01-04 23:19:44.629967+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N909b363b45d947c0a254a268dbb7291a">
+        <dcterms:W3CDTF>2018-01-04 23:17:23.029723+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="Nb5a0ce0b60b34d8da9cac3326ed3fd3e">
+        <dcterms:organization-name>Humboldt University Berlin</dcterms:organization-name>
+        <dcterms:hasEmail>konigmatt@googlemail.com</dcterms:hasEmail>
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N2ced5b6477734226a6bf3196bcf931c6">
+            <dcterms:given-name>Matthias</dcterms:given-name>
+            <dcterms:family-name>König</dcterms:family-name>
+          </rdf:Description>
+        </dcterms:hasName>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N5ce7305085094ebb866add9191a32b02">
+        <dcterms:W3CDTF>2018-01-04 23:20:46.780196+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="./simulation.xml">
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="Nacc2430c0a984ce5bb22957d4300adca">
+        <dcterms:hasEmail>konigmatt@googlemail.com</dcterms:hasEmail>
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N975222fc6e1e484585b620035a626353">
+            <dcterms:given-name>Matthias</dcterms:given-name>
+            <dcterms:family-name>König</dcterms:family-name>
+          </rdf:Description>
+        </dcterms:hasName>
+        <dcterms:organization-name>Humboldt University Berlin</dcterms:organization-name>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Na86526851b094492a1a879fe54121e01">
+        <dcterms:W3CDTF>2018-01-04 23:20:46.746545+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:description>SED-ML simulation experiment.&#13;
+Reproduces results from Figure 2A from the publication.</dcterms:description>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Ncc91bb81970c4835bfad2de3f3b0a190">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.804619+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="Nf1679bc9fa4c40758c6d9668d511b261">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.804619+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="./BIOMD0000000176.ttl">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nbf67a9a37f464ee6a8c408065c97fa3d">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.727307+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nf6d4bbfe09414d48aeac83df0b35f9b6">
+        <dcterms:W3CDTF>2018-01-04 23:16:18.815360+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:description>Complete metadata for the the SBML model BIOMD0000000176.xml as Turtle serialization.</dcterms:description>
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="Nad2e24499c5c4a2bbff8e3b582f84d58">
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N6ff75807321943419cde685ae71a0729">
+            <dcterms:given-name>Matthias</dcterms:given-name>
+            <dcterms:family-name>König</dcterms:family-name>
+          </rdf:Description>
+        </dcterms:hasName>
+        <dcterms:organization-name>Humboldt University Berlin</dcterms:organization-name>
+        <dcterms:hasEmail>konigmatt@googlemail.com</dcterms:hasEmail>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="N0b264335efce4c48b11b2449aad6fa14">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.727307+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="./manifest.xml">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N51ea9637902d492883baa837d625968e">
+        <dcterms:W3CDTF>2018-01-04 23:12:17.020056+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N7259ecdd04f64350b1ef47714e250052">
+        <dcterms:W3CDTF>2018-01-04 23:17:23.003323+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N59b60a46c3ac419ba048c24552e82dcb">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.895643+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="N91f32bda24644f9291bf0228e874d439">
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N3f54d2ab66a64c51999624db3b428734">
+            <dcterms:family-name>König</dcterms:family-name>
+            <dcterms:given-name>Matthias</dcterms:given-name>
+          </rdf:Description>
+        </dcterms:hasName>
+        <dcterms:organization-name>Humboldt University Berlin</dcterms:organization-name>
+        <dcterms:hasEmail>konigmatt@googlemail.com</dcterms:hasEmail>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N8f4b0044328640c084b7e5639171025c">
+        <dcterms:W3CDTF>2018-01-04 23:12:17.244106+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="Ne4bd5c46bdb84e83a14e808218243beb">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.258073+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+    <dcterms:description>COMBINE archive manifest</dcterms:description>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N46a50a76305c4be383483028b1b95d3a">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.258073+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="N1c50333ae44c4265946580f6f83f49d7">
+        <dcterms:hasEmail>None</dcterms:hasEmail>
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N7d8d0193c5fe47ffa9b80ceb6d1d1a50">
+            <dcterms:family-name>None</dcterms:family-name>
+            <dcterms:given-name>None</dcterms:given-name>
+          </rdf:Description>
+        </dcterms:hasName>
+        <dcterms:organization-name>None</dcterms:organization-name>
+      </rdf:Description>
+    </dcterms:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="./BIOMD0000000176.xml">
+    <dcterms:description>SBML model</dcterms:description>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="Nf3e1cab4db37483493439460fe7996e6">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.567376+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="N77b40d56aa0443559bed6687fa2bc31e">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.567376+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="./results/tellurium_plot_0.pdf">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N3d42a15906b143ec95b98afd5280a01f">
+        <dcterms:W3CDTF>2018-01-04 23:22:23.109054+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:description>Results of SED-ML simulation experiment with tellurium.&#13;
+Reproduces results from Figure 2A from the publication. Changes in the concentration of key metabolites in response to overall decreases in the Vmax values for the reactions of glycolysis.</dcterms:description>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="N45cdf11b827e46dbb6bb56d98a71f9de">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.495072+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+    <dcterms:creator>
+      <rdf:Description rdf:nodeID="N0802a9ae336c45f8babb89e1b9562aef">
+        <dcterms:hasEmail>konigmatt@googlemail.com</dcterms:hasEmail>
+        <dcterms:hasName>
+          <rdf:Description rdf:nodeID="N06ed7d73a44e4b43921f7095adb280dc">
+            <dcterms:given-name>Matthias</dcterms:given-name>
+            <dcterms:family-name>König</dcterms:family-name>
+          </rdf:Description>
+        </dcterms:hasName>
+        <dcterms:organization-name>Humboldt University Berlin</dcterms:organization-name>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N5133326212914b168ff0adaf0f4e2b14">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.495072+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about=".">
+    <dcterms:modified>
+      <rdf:Description rdf:nodeID="N6ee6e23dad58412c96dc77647720ed2a">
+        <dcterms:W3CDTF>2018-01-04 23:12:16.645047+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
+    <dcterms:created>
+      <rdf:Description rdf:nodeID="N6b9b458c195c4b3dba8e6eb24efd64ee">
+        <dcterms:W3CDTF rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-01-04T23:12:16.645047+00:00</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:created>
+  </rdf:Description>
+</rdf:RDF>
