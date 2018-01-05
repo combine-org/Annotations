@@ -1,0 +1,112 @@
+@prefix bqbiol: <http://biomodels.net/biology-qualifiers/> .
+@prefix bqmodel: <http://biomodels.net/model-qualifiers/> .
+@prefix dcelements: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vCard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vCardOld: <http://www.w3.org/2001/vcard-rdf/3.0#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<.> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.645047+00:00"^^xsd:dateTime ] ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:12:16.645047+00:00" ] .
+
+<./BIOMD0000000176.rdf> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.348547+00:00"^^xsd:dateTime ] ;
+    dcterms:creator [ dcterms:hasEmail "konigmatt@googlemail.com" ;
+            dcterms:hasName [ dcterms:family-name "König" ;
+                    dcterms:given-name "Matthias" ] ;
+            dcterms:organization-name "Humboldt University Berlin" ] ;
+    dcterms:description "Complete metadata for the the SBML model BIOMD0000000176.xml as XML serialization." ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:14:07.592628+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:16.348547+00:00" ] .
+
+<./BIOMD0000000176.ttl> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.727307+00:00"^^xsd:dateTime ] ;
+    dcterms:creator [ dcterms:hasEmail "konigmatt@googlemail.com" ;
+            dcterms:hasName [ dcterms:family-name "König" ;
+                    dcterms:given-name "Matthias" ] ;
+            dcterms:organization-name "Humboldt University Berlin" ] ;
+    dcterms:description "Complete metadata for the the SBML model BIOMD0000000176.xml as Turtle serialization." ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:16:18.815360+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:16.727307+00:00" ] .
+
+<./BIOMD0000000176.xml> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.567376+00:00"^^xsd:dateTime ] ;
+    dcterms:description "SBML model" ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:12:16.567376+00:00" ] .
+
+<./manifest.xml> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.258073+00:00"^^xsd:dateTime ] ;
+    dcterms:creator [ dcterms:hasEmail "konigmatt@googlemail.com" ;
+            dcterms:hasName [ dcterms:family-name "König" ;
+                    dcterms:given-name "Matthias" ] ;
+            dcterms:organization-name "Humboldt University Berlin" ],
+        [ dcterms:hasEmail "None" ;
+            dcterms:hasName [ dcterms:family-name "None" ;
+                    dcterms:given-name "None" ] ;
+            dcterms:organization-name "None" ] ;
+    dcterms:description "COMBINE archive manifest" ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:17:23.003323+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:17.020056+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:16.895643+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:16.258073+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:17.244106+00:00" ] .
+
+<./metadata.rdf> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.968308+00:00"^^xsd:dateTime ] ;
+    dcterms:creator [ dcterms:hasEmail "konigmatt@googlemail.com" ;
+            dcterms:hasName [ dcterms:family-name "König" ;
+                    dcterms:given-name "Matthias" ] ;
+            dcterms:organization-name "Humboldt University Berlin" ] ;
+    dcterms:description "Metadata file describing COMBINE archive content as XML serialization." ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:12:16.968308+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:14:07.623744+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:19:44.629967+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:20:46.780196+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:23:16.377034+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:17:23.029723+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:16:18.840207+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:18:29.861993+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:18:29.830538+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:22:23.137045+00:00" ] .
+
+<./metadata.ttl> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:17.191785+00:00"^^xsd:dateTime ] ;
+    dcterms:description "Metadata file describing COMBINE archive content as Turtle serialization." ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:19:44.815824+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:22:23.252494+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:23:16.491397+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:20:46.899349+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:14:07.726480+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:17:23.150536+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:17.191785+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:18:29.982311+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:19:44.603794+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:16:18.955308+00:00" ] .
+
+<./results/tellurium_plot_0.pdf> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.495072+00:00"^^xsd:dateTime ] ;
+    dcterms:creator [ dcterms:hasEmail "konigmatt@googlemail.com" ;
+            dcterms:hasName [ dcterms:family-name "König" ;
+                    dcterms:given-name "Matthias" ] ;
+            dcterms:organization-name "Humboldt University Berlin" ] ;
+    dcterms:description """Results of SED-ML simulation experiment with tellurium.\r
+Reproduces results from Figure 2A from the publication. Changes in the concentration of key metabolites in response to overall decreases in the Vmax values for the reactions of glycolysis.""" ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:22:23.109054+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:16.495072+00:00" ] .
+
+<./results/tellurium_plot_1.pdf> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.426596+00:00"^^xsd:dateTime ] ;
+    dcterms:creator [ dcterms:hasEmail "konigmatt@googlemail.com" ;
+            dcterms:hasName [ dcterms:family-name "König" ;
+                    dcterms:given-name "Matthias" ] ;
+            dcterms:organization-name "Humboldt University Berlin" ] ;
+    dcterms:description """Results of SED-ML simulation experiment with tellurium.\r
+Reproduces results from Figure 2A from the publication. Changes in the concentration of key flux in response to overall decreases in the Vmax values for the reactions of glycolysis.""" ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:23:16.356011+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:16.426596+00:00" ] .
+
+<./simulation.xml> dcterms:created [ dcterms:W3CDTF "2018-01-04T23:12:16.804619+00:00"^^xsd:dateTime ] ;
+    dcterms:creator [ dcterms:hasEmail "konigmatt@googlemail.com" ;
+            dcterms:hasName [ dcterms:family-name "König" ;
+                    dcterms:given-name "Matthias" ] ;
+            dcterms:organization-name "Humboldt University Berlin" ] ;
+    dcterms:description """SED-ML simulation experiment.\r
+Reproduces results from Figure 2A from the publication.""" ;
+    dcterms:modified [ dcterms:W3CDTF "2018-01-04 23:20:46.746545+00:00" ],
+        [ dcterms:W3CDTF "2018-01-04 23:12:16.804619+00:00" ] .
+
