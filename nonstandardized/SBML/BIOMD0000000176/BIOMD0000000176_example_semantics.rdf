@@ -5,14 +5,24 @@
   
   <rdf:Description rdf:about="./BIOMD0000000176.xml#_525523">
    <bqbiol:is rdf:resource="http://identifiers.org/go/GO:0005829" />
+   <!--
+        This annotation indicates that the model element with metaid _525523, which is an SBML compartment, represents the cytosol.
+   -->
   </rdf:Description>
 
   <rdf:Description rdf:about="./BIOMD0000000176.xml#_525530">
     <bqbiol:is rdf:resource="http://identifiers.org/chebi/CHEBI:4167" />
 	<bqbiol:is rdf:resource="http://identifiers.org/kegg.compound/C00031" />
+	<!--
+        These annotations indicate that the model element with metaid _525530, which is an SBML species, represents D-glucopyranose.
+   -->
   </rdf:Description>
 
   <rdf:Description rdf:about="./BIOMD0000000176.xml#_525635">
     <bqbiol:isVersionOf rdf:resource="http://identifiers.org/go/GO:0015758" />
+	<!--
+        This annotation indicates that the model element with metaid _525635, which is an SBML reaction, represents glucose transport.
+   -->
   </rdf:Description>
 </rdf:RDF>
+
