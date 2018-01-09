@@ -1,18 +1,16 @@
 # COMBINE Annotations
 
-Example files using annotations in files produced by members of the COMBINE community. 
+Our goal is to develop a standardized format for annotations which can be used across all COMBINE model and data standards.
 
-The goal is to come up with a standardized format for annotations which can be used across all of the model and data specification files.
-
-There are 2 sets of example files:
+Two directories provide example annotation files:
 
 ##  Nonstandardized
 
-Files [here](nonstandardized) contain annotations **as currently used** by various model and data description languages
+Files [here](nonstandardized) contain example annotations **as currently used** by various model and data description formats.
 
 ##  Standardized
 
-Files [here](standardized) contain annotations **according to the proposed unified COMBINE annotation format** for various model and data description languages.
+Files [here](standardized) will contain example annotations that adhere to **a unified COMBINE annotation format**, once it has been fully specified, for various model and data description formats.
 
 ---
 
