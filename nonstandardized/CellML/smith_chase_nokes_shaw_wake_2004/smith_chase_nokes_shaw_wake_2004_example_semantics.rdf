@@ -3,12 +3,12 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
   
-  <rdf:Description rdf:about="./smith_chase_nokes_shaw_wake_2004.cellml#left_ventricle_P_lv">
-   <bqbiol:isVersionOf rdf:resource="http://identifiers.org/opb/OPB_00509" />
+  <rdf:Description rdf:about="./smith_chase_nokes_shaw_wake_2004.cellml#left_ventricle_V_lv">
+   <bqbiol:isVersionOf rdf:resource="http://identifiers.org/opb/OPB_00154" />
    <bqbiol:isPropertyOf rdf:resource="#entity_0"/>
-   <dcterms:description>Left ventricular blood pressure</dcterms:description>
+   <dcterms:description>Left ventricular blood volume</dcterms:description>
    <!--
-        This annotation indicates that the model element with metaid left_ventricle_P_lv, which is a CellML variable, represents the pressure of blood in the left ventricule.
+        This annotation indicates that the model element with metaid left_ventricle_V_lv, which is a CellML variable, represents the volume of blood in the left ventricle.
    -->
   </rdf:Description>
 
