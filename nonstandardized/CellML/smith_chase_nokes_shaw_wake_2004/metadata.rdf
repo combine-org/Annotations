@@ -27,6 +27,9 @@
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
     </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2018-08-07T18:42:00Z</dcterms:W3CDTF>
+    </dcterms:modified>
   </rdf:Description>
   <rdf:Description rdf:about="./smith_chase_nokes_shaw_wake_2004.cellml">
     <dcterms:description>CellML model which is annotated.</dcterms:description>
@@ -63,6 +66,9 @@
     </dcterms:modified>
     <dcterms:modified rdf:parseType="Resource">
       <dcterms:W3CDTF>2017-12-20T15:00:00Z</dcterms:W3CDTF>
+    </dcterms:modified>
+    <dcterms:modified rdf:parseType="Resource">
+      <dcterms:W3CDTF>2018-08-07T18:42:00Z</dcterms:W3CDTF>
     </dcterms:modified>
   </rdf:Description>
   <rdf:Description rdf:about="./README.md">
