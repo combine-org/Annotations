@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"
+	xmlns:semsim="http://www.bhi.washington.edu/semsim#">
+  
+   <!--
+        This is an example composite semantic annotation for a property of a physical
+		process. The annotation indicates that the element with metadata ID "property_metaid_0"
+		in file "MyModel.xml" represents the chemical flow rate of a process with metadata ID 
+		"process_metaid_0". The process has one source participant (stoichiometry of 1), 
+		one sink participant (stoichiometry of 2), and one mediator. Not shown here are 
+		the additional annotations on the species participants that would be needed to establish
+		their chemical identities and compartmental locations.
+   -->
+   
+   <rdf:Description rdf:about="./MyModel.xml#property_metaid_0">
+		<bqbiol:isPropertyOf rdf:resource="./MyModel.xml#process_metaid_0"/>
+		<bqbiol:isVersionOf rdf:resource="https://identifiers.org/opb/OPB_00592"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="./MyModel.xml#process_metaid_0">
+		<semsim:hasSourceParticipant rdf:resource="./MyModel.xml#source_0"/>
+		<semsim:hasSinkParticipant rdf:resource="./MyModel.xml#sink_0"/>
+		<semsim:hasMediatorParticipant rdf:resource="./MyModel.xml#mediator_0"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="./MyModel.xml#source_0">
+		<semsim:hasMultiplier>1.0</semsim:hasMultiplier>
+		<semsim:hasPhysicalEntityReference rdf:resource="./MyModel.xml#species_metaid_0"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="./MyModel.xml#sink_0">
+		<semsim:hasMultiplier>2.0</semsim:hasMultiplier>
+		<semsim:hasPhysicalEntityReference rdf:resource="./MyModel.xml#species_metaid_1"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="./MyModel.xml#mediator_0">
+		<semsim:hasPhysicalEntityReference rdf:resource="./MyModel.xml#species_metaid_2"/>
+	</rdf:Description>
+
+</rdf:RDF>

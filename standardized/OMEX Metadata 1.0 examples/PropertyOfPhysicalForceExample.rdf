@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"
+	xmlns:semsim="http://www.bhi.washington.edu/semsim#">
+  
+   <!--
+        This is an example composite semantic annotation for a property of a physical
+		force. The annotation indicates that the element with metadata ID "parameter_metaid_0"
+		in file "MyModel.sbml" represents the cellular membrane potential established by one source
+		participant and one sink participant. The source and sink participants refer to elements
+		in the model with metadata IDs "species_metaid_0" and "species_metaid_1". Not shown here are 
+		the additional annotations on these species that would be needed to establish their 
+		chemical identities and compartmental locations.
+   -->
+   
+   <rdf:Description rdf:about="./MyModel.sbml#parameter_metaid_0">
+		<bqbiol:isPropertyOf rdf:resource="./MyModel.sbml#force_0"/>
+		<bqbiol:isVersionOf rdf:resource="https://identifiers.org/opb/OPB_01058"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="./MyModel.sbml#force_0">
+		<semsim:hasSourceParticipant rdf:resource="./MyModel.sbml#source_0"/>
+		<semsim:hasSinkParticipant rdf:resource="./MyModel.sbml#sink_0"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="./MyModel.sbml#source_0">
+		<semsim:hasPhysicalEntityReference rdf:resource="./MyModel.sbml#species_metaid_0"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="./MyModel.sbml#sink_0">
+		<semsim:hasPhysicalEntityReference rdf:resource="./MyModel.sbml#species_metaid_1"/>
+	</rdf:Description>
+
+</rdf:RDF>

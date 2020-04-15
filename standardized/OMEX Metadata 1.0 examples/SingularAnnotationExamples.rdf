@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:bqbiol="http://biomodels.net/biology-qualifiers/"
+	xmlns:bqmodel="http://biomodels.net/model-qualifiers/"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+  
+   <!--
+        This is an example of a singular, model-level, non-semantic annotation that indicates the
+		PubMed ID of the model’s source publication. In this case, the metadata ID for the model as a whole
+		(e.g., the metadata ID associated with the <model> element in an SBML model) is "modelmeta1":
+   -->
+
+   <rdf:Description rdf:about="./MyModel.xml#modelmeta1">
+		<bqmodel:isDescribedBy rdf:resource="https://identifiers.org/pubmed/12991237" />
+	</rdf:Description>
+	
+	
+	<!--
+		This is an example singular semantic annotation indicating that the element with metadata ID
+		"meta1" from the file "MyModel.xml" represents adenosine tri-phosphate:
+	-->
+	
+	<rdf:Description rdf:about="./MyModel.xml#meta1">
+		<bqbiol:is rdf:resource="https://identifiers.org/chebi/CHEBI:15422" />
+	</rdf:Description>
+
+
+	<!--
+		This is an example free-text description of a model variable with metadata ID "meta2":
+	-->
+	
+	<rdf:Description rdf:about="./MyModel.xml#meta2">
+		<dcterms:description>Cardiomyocyte cytosolic ATP concentration</dcterms:description>
+	</rdf:Description>
+
+</rdf:RDF>
