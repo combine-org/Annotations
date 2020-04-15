@@ -1,0 +1,1 @@
+This folder contains annotation examples in RDF/XML format from the OMEX Metadata Specification version 1.0.
